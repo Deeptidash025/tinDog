@@ -1,0 +1,182 @@
+body{
+   
+}
+.title {
+    background-color: #ff4c6f;
+    margin-right: 0;
+    height: 700px;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+h1 {
+   font-family: 'Montserrat';
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5%;
+    font-weight: bold;
+    
+}
+h2 {
+    font-family: 'Montserrat';
+    color:white;
+    line-height: 2;
+   
+
+}
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color: rgb(138, 138, 138)
+}
+.container {
+    padding: 3% 15%;
+}
+
+.btnfi {
+    margin-top: 150px;
+}
+.iconimg {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+.title-img {
+transform: rotate(25deg);
+    width: 25%;
+    position: absolute;
+    /* right: 30%; */
+    
+}
+
+@media (max-width: 1000px) {
+    .title {
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+        padding: 3% 3%;
+    }
+    .btnfi {
+        margin-top: 40px;
+    }
+    
+    
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    margin-left:15px;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+#features{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+   
+   
+
+}
+
+
+.featurebox {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    line-height: 2;
+    
+}
+.iconpng {
+    color: #ff4c6f;
+    width: 150px;
+    margin-bottom: 1rem;
+}
+.iconpng:hover {
+    color: #000;
+}
+
+#testimonials {
+
+    background-color: #ff4c6f;
+    padding: 7%;
+    text-align: center;
+    color: #fff;
+       
+}
+.dogie  {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 3%;
+}
+em {
+    margin-left: 3%;
+  
+}
+
+#press {
+    background-color: #ff4c6f;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logoc {
+    width: 15%;
+    margin: 3%;
+}
+
+#pricing {
+    padding: 100px 100px 10px 100px;
+}
+#cta {
+    background-color: #ff4c6f;
+    padding: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+
+.btnmar1 {
+    margin-top: 3%;
+    margin-right: 2%;
+}
+.btnmar2 {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+.iii {
+    color: black;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.iii:hover {
+    border-radius: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: black;
+}
